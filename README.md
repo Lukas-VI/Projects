@@ -11,6 +11,47 @@
 - **主要语言/技术**：JavaScript, Vue, Node.js, MySQL, Rust, Python, OpenCV, YOLOv8, C++, Kotlin, MQTT, Node-RED, Windows/Linux。
 - **项目主页**：本仓库作为作品集入口，推荐与 `party-building-system`、`luminitor`、`yolo-tools` 一起 pin。
 
+## Featured Repositories
+
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/Lukas-VI/party-building-system">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Lukas-VI&repo=party-building-system&theme=transparent&hide_border=true" alt="party-building-system repository card" />
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/Lukas-VI/luminitor">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Lukas-VI&repo=luminitor&theme=transparent&hide_border=true" alt="luminitor repository card" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/Lukas-VI/yolo-tools">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Lukas-VI&repo=yolo-tools&theme=transparent&hide_border=true" alt="yolo-tools repository card" />
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/Lukas-VI/yolo-basic-preprocesses-predictor">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Lukas-VI&repo=yolo-basic-preprocesses-predictor&theme=transparent&hide_border=true" alt="yolo-basic-preprocesses-predictor repository card" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/Lukas-VI/SteamBigScreenDriverPatch">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Lukas-VI&repo=SteamBigScreenDriverPatch&theme=transparent&hide_border=true" alt="SteamBigScreenDriverPatch repository card" />
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/Lukas-VI/small-four-legged">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Lukas-VI&repo=small-four-legged&theme=transparent&hide_border=true" alt="small-four-legged repository card" />
+      </a>
+    </td>
+  </tr>
+</table>
+
 ## Core Skills
 
 ### Full-stack Application
@@ -150,6 +191,12 @@
 | [ska-next](https://github.com/Lukas-VI/ska-next) | `main`, `master` | - |
 | [suminosim](https://github.com/Lukas-VI/suminosim) | `master` | - |
 | [small-four-legged](https://github.com/Lukas-VI/small-four-legged) | `develop`, `master` | - |
+
+### Commit History
+
+- `SteamBigScreenDriverPatch`、`luminitor`、`2025-database-project`、`suminosim`、`small-four-legged` 使用 mirror 方式迁移，commit 历史随分支和标签一起迁移到 GitHub。
+- `ska-next` 在迁移时触发 GitHub Push Protection，历史提交中包含 xAI API Key；迁移版已做历史脱敏，因此保留了提交脉络，但相关提交 SHA 会与 Gitee 原历史不同。
+- GitHub 个人贡献图是否计入这些 commit，还取决于 commit email 是否绑定到 `Lukas-VI` 账号，以及 commit 是否位于默认分支或符合 GitHub 贡献统计规则。
 
 ## Recommended Pins
 
