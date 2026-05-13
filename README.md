@@ -195,7 +195,7 @@
 ### Commit History
 
 - `SteamBigScreenDriverPatch`、`luminitor`、`2025-database-project`、`suminosim`、`small-four-legged` 使用 mirror 方式迁移，commit 历史随分支和标签一起迁移到 GitHub。
-- `ska-next` 在迁移时触发 GitHub Push Protection，历史提交中包含 xAI API Key；迁移版已做历史脱敏，因此保留了提交脉络，但相关提交 SHA 会与 Gitee 原历史不同。
+- `ska-next` 在迁移时触发 GitHub Push Protection，历史提交中包含 xAI API Key；迁移版已做历史脱敏，并将 author/committer 统一为 `Yanhe06 <luyanhe@hotmail.com>`，因此保留了提交脉络，但相关提交 SHA 会与 Gitee 原历史不同。
 - GitHub 个人贡献图是否计入这些 commit，还取决于 commit email 是否绑定到 `Lukas-VI` 账号，以及 commit 是否位于默认分支或符合 GitHub 贡献统计规则。
 
 ## Recommended Pins
