@@ -1,72 +1,161 @@
-# Projects
+# Projects Portfolio
 
-这里整理了我在 GitHub 与 Gitee 上的公开项目，用作主页 pin 展示。项目覆盖业务系统、主机监控、计算机视觉、机器人/硬件、效率工具与课程练习。
+面向主页 pin 展示的项目简历。这里按 CV 的方式整理我在 GitHub 与 Gitee 迁移到 GitHub 后的公开项目，突出技术方向、项目职责、工程交付和可展示成果。
 
-> Updated: 2026-05-13
+> Last updated: 2026-05-13
 
-## 精选项目
+## Profile
 
-| 项目 | 类型 | 技术/方向 | 简介 |
-| --- | --- | --- | --- |
-| [party-building-system](https://github.com/Lukas-VI/party-building-system) | 业务系统 | JavaScript, Node.js, MySQL, Vue/H5 | 高校党员发展管理系统，覆盖服务号 H5、PC 后台、角色权限、流程审核、材料上传、统计分析与消息提醒。 |
-| [luminitor](https://github.com/Lukas-VI/luminitor) | 主机监控 | Rust, MQTT, HTTP/WS, Node-RED | 轻量主机监视器，采用 Agent + Broker + Consumer 架构，面向 Windows、Ubuntu、虚拟机、边缘设备与工控场景。 |
-| [yolo-tools](https://github.com/Lukas-VI/yolo-tools) | 计算机视觉工具 | Python, OpenCV, YOLOv8 | 面向 YOLOv8 训练与推理的工具集，包含大图切分/合并思路，用于提升远距离小目标识别能力。 |
-| [yolo-basic-preprocesses-predictor](https://github.com/Lukas-VI/yolo-basic-preprocesses-predictor) | 计算机视觉实验 | Python, YOLOv8 | 两阶段 YOLO 推理流程：先检测大图目标框，再裁剪小图做预处理与分类，最后合并预测结果。 |
-| [SteamBigScreenDriverPatch](https://github.com/Lukas-VI/SteamBigScreenDriverPatch) | 桌面效率工具 | Python, Windows hotkey | 将 ThinkBook 2022 的 Fn+F9 从售后服务快捷键改为 Steam 大屏幕启动/切换键。 |
-| [small-four-legged](https://github.com/Lukas-VI/small-four-legged) | 机器人/硬件 | C++ | 小型四足项目代码，偏硬件控制与机器人实验方向。 |
+- **方向定位**：应用系统开发、主机监控与边缘设备、计算机视觉工具、机器人/硬件实验。
+- **工程特点**：偏向把想法做成可运行、可部署、可交付的项目；重视 README、部署脚本、打包流程和验证链路。
+- **主要语言/技术**：JavaScript, Vue, Node.js, MySQL, Rust, Python, OpenCV, YOLOv8, C++, Kotlin, MQTT, Node-RED, Windows/Linux。
+- **项目主页**：本仓库作为作品集入口，推荐与 `party-building-system`、`luminitor`、`yolo-tools` 一起 pin。
 
-## 项目方向
+## Core Skills
 
-### 业务系统与工程交付
+### Full-stack Application
 
-- [party-building-system](https://github.com/Lukas-VI/party-building-system)：从需求流程、权限角色、前后端分离到部署文档的完整业务系统实践。
-- [luminitor](https://github.com/Lukas-VI/luminitor)：从 Agent 采集、MQTT 上报、Node-RED 聚合到 Hub 展示的监控链路，包含安装包与客户交付思路。
-- [2025-database-project](https://github.com/Lukas-VI/2025-database-project)：数据库课程/小组项目，侧重数据建模、后端逻辑和应用落地。
+- 前后端分离业务系统设计
+- 用户、角色、权限与流程审核建模
+- MySQL 数据建模与接口开发
+- H5/PC 管理端页面与后台联调
 
-### 计算机视觉与智能感知
+### Systems and Delivery
 
-- [yolo-tools](https://github.com/Lukas-VI/yolo-tools)：YOLOv8 训练与推理辅助工具，关注大图、小目标与远距离识别场景。
-- [yolo-basic-preprocesses-predictor](https://github.com/Lukas-VI/yolo-basic-preprocesses-predictor)：检测 + 分类的组合式推理流程实验。
-- [Mediapipe-Tracking-Universal](https://github.com/Lukas-VI/Mediapipe-Tracking-Universal)：基于 MediaPipe 的全身追踪项目 fork，用于理解人体姿态估计和 VR tracking 链路。
+- Rust workspace 项目组织
+- Windows/Ubuntu 安装包与交付目录整理
+- MQTT、HTTP、WebSocket 数据链路
+- Node-RED 聚合、告警与 dashboard 展示
 
-### 机器人、硬件与桌面工具
+### Computer Vision
 
-- [small-four-legged](https://github.com/Lukas-VI/small-four-legged)：小型四足项目代码。
-- [servo-dog](https://github.com/Lukas-VI/servo-dog)：舵机/四足方向的实验仓库。
-- [ska-next](https://github.com/Lukas-VI/ska-next)：机器人服务项目。
-- [SteamBigScreenDriverPatch](https://github.com/Lukas-VI/SteamBigScreenDriverPatch)：把闲置快捷键改造成游戏/桌面工作流入口。
+- YOLOv8 训练/推理工具链
+- 大图切分、小目标识别与二阶段推理
+- OpenCV 图像预处理
+- MediaPipe 姿态估计与人体追踪方向探索
 
-### 工具链、开源维护与学习
+### Robotics and Tools
+
+- 小型四足/舵机控制方向实验
+- Windows 快捷键与桌面效率工具
+- GitHub Actions 自动构建
+- 开源项目 fork、阅读、改造和维护
+
+## Project Experience
+
+### 1. 党员发展管理系统
+
+- **Repository**: [party-building-system](https://github.com/Lukas-VI/party-building-system)
+- **Role**: Full-stack developer / product implementer
+- **Stack**: JavaScript, Node.js, MySQL, Vue, Vant, JWT
+- **Scenario**: 面向高校党员发展流程的信息化管理系统。
+- **Work Highlights**:
+  - 设计服务号 H5、PC 后台和 Node.js 服务端的前后端分离结构。
+  - 覆盖申请人、党支部书记、组织员、二级党委、组织部、超级管理员等多角色权限。
+  - 实现流程审核、材料上传、统计分析、台账导出、消息提醒等核心模块。
+  - README 和 docs 中沉淀部署、调试、流程说明和维护记录。
+- **Value**: 展示完整业务系统从需求拆解、数据建模、接口实现到部署交付的能力。
+
+### 2. Luminitor 主机监视器
+
+- **Repository**: [luminitor](https://github.com/Lukas-VI/luminitor)
+- **Role**: System developer / release workflow maintainer
+- **Stack**: Rust, MQTT, Axum, WebSocket, Node-RED, PowerShell, Linux shell
+- **Scenario**: 面向 Windows、Ubuntu、虚拟机、边缘设备和工控场景的轻量主机监控。
+- **Work Highlights**:
+  - 采用 `Agent + Broker + Consumer` 架构，设备侧 Agent 主动采集并推送状态。
+  - 提供 HTTP/WS 本地接口，支持健康检查、快照和实时查看。
+  - 通过 MQTT、Node-RED 与 Hub 形成聚合、告警和展示链路。
+  - 整理 Windows/Ubuntu 试点安装包、校验脚本、客户交付目录和 release 产物。
+- **Value**: 展示系统级 Rust 项目、监控链路、跨平台打包与交付工程能力。
+
+### 3. YOLO 工具集
+
+- **Repository**: [yolo-tools](https://github.com/Lukas-VI/yolo-tools)
+- **Role**: CV tooling developer
+- **Stack**: Python, OpenCV, YOLOv8
+- **Scenario**: 为 YOLOv8 训练与推理提供辅助工具。
+- **Work Highlights**:
+  - 设计大图切分与合并流程，缓解高分辨率图像直接推理时的小目标识别问题。
+  - 面向远距离目标识别场景，提供更实用的训练/推理辅助脚本。
+  - 以工具集方式沉淀可复用的 CV 工作流。
+- **Value**: 展示计算机视觉工程化思路，而不是只停留在模型调用。
+
+### 4. YOLO 二阶段预处理推理实验
+
+- **Repository**: [yolo-basic-preprocesses-predictor](https://github.com/Lukas-VI/yolo-basic-preprocesses-predictor)
+- **Role**: CV experiment developer
+- **Stack**: Python, YOLOv8, image preprocessing
+- **Scenario**: 探索“检测 + 裁剪 + 预处理 + 分类 + 合并”的组合式推理流程。
+- **Work Highlights**:
+  - 使用大模型先定位目标框，再裁剪局部图像。
+  - 对局部图像进行预处理后交给分类模型识别。
+  - 合并 bbox 与 class 信息，输出最终预测结果。
+- **Value**: 展示对推理流程拆解、模型协作和数据后处理的理解。
+
+### 5. ThinkBook Fn+F9 DriverPatch
+
+- **Repository**: [SteamBigScreenDriverPatch](https://github.com/Lukas-VI/SteamBigScreenDriverPatch)
+- **Role**: Desktop utility developer
+- **Stack**: Python, Windows hotkey workflow
+- **Scenario**: 将 ThinkBook 2022 的 Fn+F9 从闲置售后服务入口改造为 Steam 大屏幕快捷键。
+- **Work Highlights**:
+  - 为特定设备快捷键重新赋予实用动作。
+  - 支持 Steam Big Picture 启动/切换，提高桌面和游戏工作流体验。
+  - 已迁移到 GitHub 并保留 `v1.0.0` tag。
+- **Value**: 展示把个人痛点快速变成可用工具的执行力。
+
+### 6. 机器人与硬件方向实验
+
+- **Repositories**:
+  - [small-four-legged](https://github.com/Lukas-VI/small-four-legged)
+  - [servo-dog](https://github.com/Lukas-VI/servo-dog)
+  - [ska-next](https://github.com/Lukas-VI/ska-next)
+- **Stack**: C++, Python, Makefile
+- **Scenario**: 小型四足、舵机控制与机器人服务方向实验。
+- **Work Highlights**:
+  - `small-four-legged` 保留 `develop` 与 `master` 分支，适合继续演进硬件控制代码。
+  - `ska-next` 迁移时已完成历史脱敏，保留 `main` 与 `master` 分支。
+  - `servo-dog` 作为舵机/四足方向早期探索仓库。
+- **Value**: 展示软件与硬件结合方向的持续探索。
+
+## Additional Projects
+
+### Tooling and Open-source Reading
 
 - [claw-code](https://github.com/Lukas-VI/claw-code)：Rust CLI agent harness 方向的 fork/维护学习。
 - [htu-toolbox](https://github.com/Lukas-VI/htu-toolbox)：河师大工具箱 fork，包含校园网登录等实用功能。
 - [NzHelper](https://github.com/Lukas-VI/NzHelper)：Android/Kotlin 项目 fork，关注更友好的 UI 与实用特性。
 - [aseprite-builder](https://github.com/Lukas-VI/aseprite-builder)：通过 GitHub Actions 构建 Aseprite 的自动化工作流。
 - [aseprite-build](https://github.com/Lukas-VI/aseprite-build)：Aseprite 上游 fork，用于像素动画工具构建与源码学习。
+
+### Learning and Coursework
+
+- [2025-database-project](https://github.com/Lukas-VI/2025-database-project)：数据库课程/小组项目。
 - [Python-study-notes](https://github.com/Lukas-VI/Python-study-notes)：Python 学习笔记。
 - [The-exercise-of-Programming-in-C](https://github.com/Lukas-VI/The-exercise-of-Programming-in-C)：C 语言编程练习与题解整理。
 - [test-mod-template-1.20](https://github.com/Lukas-VI/test-mod-template-1.20)：Minecraft mod template 相关实验。
-- [MOT_SysMonitor](https://github.com/Lukas-VI/MOT_SysMonitor)：系统监控方向的早期项目。
+- [MOT_SysMonitor](https://github.com/Lukas-VI/MOT_SysMonitor)：系统监控方向早期项目。
 - [suminosim](https://github.com/Lukas-VI/suminosim)：Python 仿真/实验仓库。
 
-## 技术标签
+## Migration Notes
 
-`JavaScript` `Vue` `Node.js` `MySQL` `Rust` `MQTT` `Node-RED` `Python` `OpenCV` `YOLOv8` `C++` `Kotlin` `Makefile` `Windows` `Linux` `机器人` `主机监控` `计算机视觉`
+以下 Gitee 项目已迁移到 GitHub，并保留 Git 历史、分支和标签：
 
-## 推荐主页 Pin 叙事
+| Repository | Branches | Tags |
+| --- | --- | --- |
+| [SteamBigScreenDriverPatch](https://github.com/Lukas-VI/SteamBigScreenDriverPatch) | `master` | `v1.0.0` |
+| [luminitor](https://github.com/Lukas-VI/luminitor) | `master` | - |
+| [2025-database-project](https://github.com/Lukas-VI/2025-database-project) | `master` | - |
+| [ska-next](https://github.com/Lukas-VI/ska-next) | `main`, `master` | - |
+| [suminosim](https://github.com/Lukas-VI/suminosim) | `master` | - |
+| [small-four-legged](https://github.com/Lukas-VI/small-four-legged) | `develop`, `master` | - |
 
-如果只 pin 一个仓库，推荐 pin 当前 `Projects`，作为项目总览入口。
+## Recommended Pins
 
-如果主页还要搭配其他仓库，推荐顺序：
-
-1. `Projects`：总览入口。
-2. `party-building-system`：完整业务系统能力。
-3. `luminitor`：监控/边缘设备/交付能力。
-4. `yolo-tools`：计算机视觉工具能力。
-5. `yolo-basic-preprocesses-predictor`：算法实验和推理流程设计。
-6. `SteamBigScreenDriverPatch` 或 `small-four-legged`：展示实用工具或机器人硬件方向。
-
-## 账号入口
-
-- GitHub: [Lukas-VI](https://github.com/Lukas-VI?tab=repositories)
-- Gitee: [Yanhe06](https://gitee.com/Yanhe06)
+1. [Projects](https://github.com/Lukas-VI/Projects)：作品集入口。
+2. [party-building-system](https://github.com/Lukas-VI/party-building-system)：完整业务系统。
+3. [luminitor](https://github.com/Lukas-VI/luminitor)：Rust 监控与交付工程。
+4. [yolo-tools](https://github.com/Lukas-VI/yolo-tools)：计算机视觉工具链。
+5. [yolo-basic-preprocesses-predictor](https://github.com/Lukas-VI/yolo-basic-preprocesses-predictor)：CV 推理流程实验。
+6. [SteamBigScreenDriverPatch](https://github.com/Lukas-VI/SteamBigScreenDriverPatch) 或 [small-four-legged](https://github.com/Lukas-VI/small-four-legged)：实用工具/机器人方向。
